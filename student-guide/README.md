@@ -1,4 +1,4 @@
-# Spotify Clone Student Guide
+# IniSound Student Guide
 
 The `copies/` folder contains exact duplicates of the final working files. The `commented/` folder contains the same code with a plain-language explanation written directly on every line. Commented JSON uses the `.jsonc` extension because normal JSON does not allow comments.
 

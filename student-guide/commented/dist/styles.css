@@ -19,7 +19,7 @@ button{ /* Start styling elements matched by button. */
   cursor:pointer /* Set cursor to pointer for the current selector. */
 } /* Close the current CSS rule or media query. */
 button:focus-visible,input:focus-visible{ /* Start styling elements matched by button:focus-visible,input:focus-visible. */
-  outline:2px solid #1ed760; /* Set outline to 2px solid #1ed760 for the current selector. */
+  outline:2px solid #a78bfa; /* Set outline to 2px solid #a78bfa for the current selector. */
   outline-offset:2px /* Set outline-offset to 2px for the current selector. */
 } /* Close the current CSS rule or media query. */
 [hidden]{ /* Start styling elements matched by [hidden]. */
@@ -75,40 +75,20 @@ svg{ /* Start styling elements matched by svg. */
 .brand strong{ /* Start styling elements matched by .brand strong. */
   font-weight:800 /* Set font-weight to 800 for the current selector. */
 } /* Close the current CSS rule or media query. */
-.brand small{ /* Start styling elements matched by .brand small. */
-  font-size:7px; /* Set font-size to 7px for the current selector. */
-  letter-spacing:1px; /* Set letter-spacing to 1px for the current selector. */
-  border:1px solid #777; /* Set border to 1px solid #777 for the current selector. */
-  border-radius:3px; /* Set border-radius to 3px for the current selector. */
-  padding:2px 3px; /* Set padding to 2px 3px for the current selector. */
-  margin-left:-4px; /* Set margin-left to -4px for the current selector. */
-  align-self:start; /* Set align-self to start for the current selector. */
-  margin-top:5px /* Set margin-top to 5px for the current selector. */
-} /* Close the current CSS rule or media query. */
 .brand-mark{ /* Start styling elements matched by .brand-mark. */
-  width:29px; /* Set width to 29px for the current selector. */
-  height:29px; /* Set height to 29px for the current selector. */
-  border-radius:50%; /* Set border-radius to 50% for the current selector. */
-  background:#fff; /* Set background to #fff for the current selector. */
-  display:flex; /* Set display to flex for the current selector. */
-  flex-direction:column; /* Set flex-direction to column for the current selector. */
-  justify-content:center; /* Set justify-content to center for the current selector. */
-  align-items:center; /* Set align-items to center for the current selector. */
-  gap:3px; /* Set gap to 3px for the current selector. */
-  transform:rotate(13deg); /* Set transform to rotate(13deg) for the current selector. */
+  width:32px; /* Set width to 32px for the current selector. */
+  height:32px; /* Set height to 32px for the current selector. */
+  border-radius:10px; /* Set border-radius to 10px for the current selector. */
+  background:linear-gradient(135deg,#a78bfa,#67e8f9); /* Set background to linear-gradient(135deg,#a78bfa,#67e8f9) for the current selector. */
+  display:grid; /* Set display to grid for the current selector. */
+  place-items:center; /* Set place-items to center for the current selector. */
   flex:none /* Set flex to none for the current selector. */
 } /* Close the current CSS rule or media query. */
-.brand-mark span{ /* Start styling elements matched by .brand-mark span. */
-  width:19px; /* Set width to 19px for the current selector. */
-  height:2px; /* Set height to 2px for the current selector. */
-  background:#111; /* Set background to #111 for the current selector. */
-  border-radius:50% /* Set border-radius to 50% for the current selector. */
-} /* Close the current CSS rule or media query. */
-.brand-mark span:nth-child(2){ /* Start styling elements matched by .brand-mark span:nth-child(2). */
-  width:17px /* Set width to 17px for the current selector. */
-} /* Close the current CSS rule or media query. */
-.brand-mark span:nth-child(3){ /* Start styling elements matched by .brand-mark span:nth-child(3). */
-  width:13px /* Set width to 13px for the current selector. */
+.brand-mark svg{ /* Start the CSS rule for .brand-mark svg. */
+  width:27px; /* Set width to 27px for the current selector. */
+  height:27px; /* Set height to 27px for the current selector. */
+  stroke:#17112b; /* Set stroke to #17112b for the current selector. */
+  stroke-width:3.5 /* Set stroke-width to 3.5 for the current selector. */
 } /* Close the current CSS rule or media query. */
 .primary-nav{ /* Start styling elements matched by .primary-nav. */
   display:grid; /* Set display to grid for the current selector. */
@@ -437,7 +417,7 @@ svg{ /* Start styling elements matched by svg. */
   box-shadow:4px 0 15px #0004 /* Set box-shadow to 4px 0 15px #0004 for the current selector. */
 } /* Close the current CSS rule or media query. */
 .quick-play,.card-play{ /* Start styling elements matched by .quick-play,.card-play. */
-  background:#1ed760; /* Set background to #1ed760 for the current selector. */
+  background:#a78bfa; /* Set background to #a78bfa for the current selector. */
   color:#000; /* Set color to #000 for the current selector. */
   border-radius:50%; /* Set border-radius to 50% for the current selector. */
   width:38px; /* Set width to 38px for the current selector. */
@@ -608,7 +588,7 @@ svg{ /* Start styling elements matched by svg. */
   margin-bottom:5px /* Set margin-bottom to 5px for the current selector. */
 } /* Close the current CSS rule or media query. */
 .accent-period{ /* Start styling elements matched by .accent-period. */
-  color:#1ed760 /* Set color to #1ed760 for the current selector. */
+  color:#a78bfa /* Set color to #a78bfa for the current selector. */
 } /* Close the current CSS rule or media query. */
 .table-wrap{ /* Start styling elements matched by .table-wrap. */
   max-width:100% /* Set max-width to 100% for the current selector. */
@@ -644,7 +624,7 @@ svg{ /* Start styling elements matched by svg. */
   font-size:12px /* Set font-size to 12px for the current selector. */
 } /* Close the current CSS rule or media query. */
 .track-row.is-playing .track-number,.track-row.is-playing .row-meta strong{ /* Start styling elements matched by .track-row.is-playing .track-number,.track-row.is-playing .row-meta strong. */
-  color:#1ed760 /* Set color to #1ed760 for the current selector. */
+  color:#a78bfa /* Set color to #a78bfa for the current selector. */
 } /* Close the current CSS rule or media query. */
 .track-title-cell{ /* Start styling elements matched by .track-title-cell. */
   display:flex; /* Set display to flex for the current selector. */
@@ -691,10 +671,10 @@ svg{ /* Start styling elements matched by svg. */
   height:17px /* Set height to 17px for the current selector. */
 } /* Close the current CSS rule or media query. */
 .liked,.row-like:hover,.like-button:hover{ /* Start styling elements matched by .liked,.row-like:hover,.like-button:hover. */
-  color:#1ed760!important /* Set color to #1ed760!important for the current selector. */
+  color:#a78bfa!important /* Set color to #a78bfa!important for the current selector. */
 } /* Close the current CSS rule or media query. */
 .liked svg{ /* Start styling elements matched by .liked svg. */
-  fill:#1ed760 /* Set fill to #1ed760 for the current selector. */
+  fill:#a78bfa /* Set fill to #a78bfa for the current selector. */
 } /* Close the current CSS rule or media query. */
 .page-footer{ /* Start styling elements matched by .page-footer. */
   border-top:1px solid #ffffff20; /* Set border-top to 1px solid #ffffff20 for the current selector. */
@@ -897,13 +877,13 @@ svg{ /* Start styling elements matched by svg. */
   place-items:center /* Set place-items to center for the current selector. */
 } /* Close the current CSS rule or media query. */
 .control-small:hover,.control-small.active{ /* Start styling elements matched by .control-small:hover,.control-small.active. */
-  color:#1ed760 /* Set color to #1ed760 for the current selector. */
+  color:#a78bfa /* Set color to #a78bfa for the current selector. */
 } /* Close the current CSS rule or media query. */
 .control-small.active:after{ /* Start styling elements matched by .control-small.active:after. */
   content:''; /* Set content to '' for the current selector. */
   width:4px; /* Set width to 4px for the current selector. */
   height:4px; /* Set height to 4px for the current selector. */
-  background:#1ed760; /* Set background to #1ed760 for the current selector. */
+  background:#a78bfa; /* Set background to #a78bfa for the current selector. */
   border-radius:50%; /* Set border-radius to 50% for the current selector. */
   position:absolute; /* Set position to absolute for the current selector. */
   transform:translateY(13px) /* Set transform to translateY(13px) for the current selector. */
@@ -957,10 +937,10 @@ input[type=range]{ /* Start styling elements matched by input[type=range]. */
   background:#535353; /* Set background to #535353 for the current selector. */
   border-radius:5px; /* Set border-radius to 5px for the current selector. */
   cursor:pointer; /* Set cursor to pointer for the current selector. */
-  accent-color:#1ed760 /* Set accent-color to #1ed760 for the current selector. */
+  accent-color:#a78bfa /* Set accent-color to #a78bfa for the current selector. */
 } /* Close the current CSS rule or media query. */
 input[type=range]:hover{ /* Start styling elements matched by input[type=range]:hover. */
-  background:#1ed760 /* Set background to #1ed760 for the current selector. */
+  background:#a78bfa /* Set background to #a78bfa for the current selector. */
 } /* Close the current CSS rule or media query. */
 input[type=range]::-webkit-slider-thumb{ /* Start styling elements matched by input[type=range]::-webkit-slider-thumb. */
   appearance:none; /* Set appearance to none for the current selector. */
@@ -1386,7 +1366,7 @@ input[type=range]::-webkit-slider-thumb{ /* Start styling elements matched by in
   padding:3px 0 /* Set padding to 3px 0 for the current selector. */
 } /* Close the current CSS rule or media query. */
 .credits-card a{ /* Start styling elements matched by .credits-card a. */
-  color:#1ed760; /* Set color to #1ed760 for the current selector. */
+  color:#a78bfa; /* Set color to #a78bfa for the current selector. */
   text-underline-offset:3px /* Set text-underline-offset to 3px for the current selector. */
 } /* Close the current CSS rule or media query. */
 .credits-back{ /* Start styling elements matched by .credits-back. */
@@ -1412,7 +1392,7 @@ input[type=range]::-webkit-slider-thumb{ /* Start styling elements matched by in
 .artist-embed-card a{ /* Start styling elements matched by .artist-embed-card a. */
   display:inline-block; /* Set display to inline-block for the current selector. */
   margin-top:12px; /* Set margin-top to 12px for the current selector. */
-  color:#1ed760; /* Set color to #1ed760 for the current selector. */
+  color:#a78bfa; /* Set color to #a78bfa for the current selector. */
   font-size:12px; /* Set font-size to 12px for the current selector. */
   font-weight:700; /* Set font-weight to 700 for the current selector. */
   text-underline-offset:3px /* Set text-underline-offset to 3px for the current selector. */
@@ -1462,5 +1442,22 @@ input[type=range]::-webkit-slider-thumb{ /* Start styling elements matched by in
     transition-duration:.01ms!important; /* Set transition-duration to .01ms!important for the current selector. */
     animation-duration:.01ms!important; /* Set animation-duration to .01ms!important for the current selector. */
     animation-iteration-count:1!important /* Set animation-iteration-count to 1!important for the current selector. */
+  } /* Close the current CSS rule or media query. */
+} /* Close the current CSS rule or media query. */
+.project-disclaimer{ /* Start styling the short independence disclaimer. */
+  position:fixed; /* Set position to fixed for the current selector. */
+  left:50%; /* Place its starting point at the horizontal centre. */
+  bottom:3px; /* Leave a small gap beneath the text. */
+  z-index:21; /* Keep it above the player background. */
+  margin:0; /* Set margin to 0 for the current selector. */
+  transform:translateX(-50%); /* Centre the disclaimer around its starting point. */
+  color:#737373; /* Use a quiet grey colour. */
+  font-size:8px; /* Set font-size to 8px for the current selector. */
+  white-space:nowrap; /* Set white-space to nowrap for the current selector. */
+  pointer-events:none /* Allow clicks to pass through to the player controls. */
+} /* Close the current CSS rule or media query. */
+@media(max-width:560px){ /* Apply the enclosed styles only for this screen size or user preference. */
+  .project-disclaimer{ /* Select the independence disclaimer. */
+    display:none /* Set display to none for the current selector. */
   } /* Close the current CSS rule or media query. */
 } /* Close the current CSS rule or media query. */

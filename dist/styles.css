@@ -1444,3 +1444,20 @@ input[type=range]::-webkit-slider-thumb{
     animation-iteration-count:1!important
   }
 }
+.project-disclaimer{
+  position:fixed;
+  left:50%;
+  bottom:3px;
+  z-index:21;
+  margin:0;
+  transform:translateX(-50%);
+  color:#737373;
+  font-size:8px;
+  white-space:nowrap;
+  pointer-events:none
+}
+@media(max-width:560px){
+  .project-disclaimer{
+    display:none
+  }
+}

@@ -17,7 +17,7 @@ const $ = (selector) => document.querySelector(selector); // Create a short help
 const audio = $('#audio'); // Store the one HTML audio element controlled by this app.
 const savedLikes = (() => { // Safely start reading liked tracks from browser storage.
   try { // Start a protected operation that may fail.
-    const value = JSON.parse(localStorage.getItem('soundspace-likes') || '[]'); // Read or save liked songs in the browser.
+    const value = JSON.parse(localStorage.getItem('inisound-likes') || '[]'); // Read liked-track IDs saved by IniSound or start with an empty list.
     return Array.isArray(value) ? value : []; // Return this result and finish the current function.
   } catch { // Recover safely if the protected operation fails.
     return []; // Return this result and finish the current function.
@@ -126,7 +126,7 @@ function togglePlay(){ // Define the togglePlay function for reuse.
 } // Close the current function, callback, block, or expression.
 function toggleLike(id){ // Define the toggleLike function for reuse.
   if(state.liked.has(id))state.liked.delete(id);else state.liked.add(id); // Check a condition before running the attached instruction.
-  localStorage.setItem('soundspace-likes',JSON.stringify([...state.liked])); // Read or save liked songs in the browser.
+  localStorage.setItem('inisound-likes',JSON.stringify([...state.liked])); // Save liked tracks under the IniSound storage key.
   renderTracks();updateNowPlaying(); // Continue the application logic by calculating data, changing state, or controlling the interface.
 } // Close the current function, callback, block, or expression.
 function openUpload(){$('#file-input').click();} // Define the openUpload function for reuse.

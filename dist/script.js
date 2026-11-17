@@ -17,7 +17,7 @@ const $ = (selector) => document.querySelector(selector);
 const audio = $('#audio');
 const savedLikes = (() => {
   try {
-    const value = JSON.parse(localStorage.getItem('soundspace-likes') || '[]');
+    const value = JSON.parse(localStorage.getItem('inisound-likes') || '[]');
     return Array.isArray(value) ? value : [];
   } catch {
     return [];
@@ -126,7 +126,7 @@ function togglePlay(){
 }
 function toggleLike(id){
   if(state.liked.has(id))state.liked.delete(id);else state.liked.add(id);
-  localStorage.setItem('soundspace-likes',JSON.stringify([...state.liked]));
+  localStorage.setItem('inisound-likes',JSON.stringify([...state.liked]));
   renderTracks();updateNowPlaying();
 }
 function openUpload(){$('#file-input').click();}

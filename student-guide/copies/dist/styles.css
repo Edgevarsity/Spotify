@@ -19,7 +19,7 @@ button{
   cursor:pointer
 }
 button:focus-visible,input:focus-visible{
-  outline:2px solid #1ed760;
+  outline:2px solid #a78bfa;
   outline-offset:2px
 }
 [hidden]{
@@ -75,40 +75,20 @@ svg{
 .brand strong{
   font-weight:800
 }
-.brand small{
-  font-size:7px;
-  letter-spacing:1px;
-  border:1px solid #777;
-  border-radius:3px;
-  padding:2px 3px;
-  margin-left:-4px;
-  align-self:start;
-  margin-top:5px
-}
 .brand-mark{
-  width:29px;
-  height:29px;
-  border-radius:50%;
-  background:#fff;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  gap:3px;
-  transform:rotate(13deg);
+  width:32px;
+  height:32px;
+  border-radius:10px;
+  background:linear-gradient(135deg,#a78bfa,#67e8f9);
+  display:grid;
+  place-items:center;
   flex:none
 }
-.brand-mark span{
-  width:19px;
-  height:2px;
-  background:#111;
-  border-radius:50%
-}
-.brand-mark span:nth-child(2){
-  width:17px
-}
-.brand-mark span:nth-child(3){
-  width:13px
+.brand-mark svg{
+  width:27px;
+  height:27px;
+  stroke:#17112b;
+  stroke-width:3.5
 }
 .primary-nav{
   display:grid;
@@ -437,7 +417,7 @@ svg{
   box-shadow:4px 0 15px #0004
 }
 .quick-play,.card-play{
-  background:#1ed760;
+  background:#a78bfa;
   color:#000;
   border-radius:50%;
   width:38px;
@@ -608,7 +588,7 @@ svg{
   margin-bottom:5px
 }
 .accent-period{
-  color:#1ed760
+  color:#a78bfa
 }
 .table-wrap{
   max-width:100%
@@ -644,7 +624,7 @@ svg{
   font-size:12px
 }
 .track-row.is-playing .track-number,.track-row.is-playing .row-meta strong{
-  color:#1ed760
+  color:#a78bfa
 }
 .track-title-cell{
   display:flex;
@@ -691,10 +671,10 @@ svg{
   height:17px
 }
 .liked,.row-like:hover,.like-button:hover{
-  color:#1ed760!important
+  color:#a78bfa!important
 }
 .liked svg{
-  fill:#1ed760
+  fill:#a78bfa
 }
 .page-footer{
   border-top:1px solid #ffffff20;
@@ -897,13 +877,13 @@ svg{
   place-items:center
 }
 .control-small:hover,.control-small.active{
-  color:#1ed760
+  color:#a78bfa
 }
 .control-small.active:after{
   content:'';
   width:4px;
   height:4px;
-  background:#1ed760;
+  background:#a78bfa;
   border-radius:50%;
   position:absolute;
   transform:translateY(13px)
@@ -957,10 +937,10 @@ input[type=range]{
   background:#535353;
   border-radius:5px;
   cursor:pointer;
-  accent-color:#1ed760
+  accent-color:#a78bfa
 }
 input[type=range]:hover{
-  background:#1ed760
+  background:#a78bfa
 }
 input[type=range]::-webkit-slider-thumb{
   appearance:none;
@@ -1386,7 +1366,7 @@ input[type=range]::-webkit-slider-thumb{
   padding:3px 0
 }
 .credits-card a{
-  color:#1ed760;
+  color:#a78bfa;
   text-underline-offset:3px
 }
 .credits-back{
@@ -1412,7 +1392,7 @@ input[type=range]::-webkit-slider-thumb{
 .artist-embed-card a{
   display:inline-block;
   margin-top:12px;
-  color:#1ed760;
+  color:#a78bfa;
   font-size:12px;
   font-weight:700;
   text-underline-offset:3px
@@ -1462,5 +1442,22 @@ input[type=range]::-webkit-slider-thumb{
     transition-duration:.01ms!important;
     animation-duration:.01ms!important;
     animation-iteration-count:1!important
+  }
+}
+.project-disclaimer{
+  position:fixed;
+  left:50%;
+  bottom:3px;
+  z-index:21;
+  margin:0;
+  transform:translateX(-50%);
+  color:#737373;
+  font-size:8px;
+  white-space:nowrap;
+  pointer-events:none
+}
+@media(max-width:560px){
+  .project-disclaimer{
+    display:none
   }
 }

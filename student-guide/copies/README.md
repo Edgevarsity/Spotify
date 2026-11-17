@@ -1,6 +1,6 @@
-# Spotify Clone — Student Web Player
+# IniSound — Student Web Player
 
-A Spotify-style student music player made with **HTML, CSS, and vanilla JavaScript**. No framework, package manager, or build step is needed.
+An original student music player made with **HTML, CSS, and vanilla JavaScript**. No framework, package manager, or build step is needed.
 
 ## Run it
 
@@ -19,7 +19,7 @@ Then visit `http://localhost:8000`.
 - Links to the official Spotify pages for Juice WRLD, Tatiana Manaois, Asake, and Rema without adding separate audio players that could overlap the built-in player.
 - Includes a Surprise me button and shuffle playback for random listening.
 - Lets you add audio files from your device for the current browser session.
-- Has a Spotify-style home screen, library, curated playlists, queue, and now playing panel.
+- Has a modern home screen, library, curated playlists, queue, and now playing panel.
 - Supports search, favorites, shuffle, repeat, seek, volume, and next/previous controls.
 - Saves liked song IDs in `localStorage`.
 - Adapts to desktop and mobile screens.
@@ -40,4 +40,4 @@ To add another incompetech song, add an object to `musicTracks` near the top of 
 
 “Tafi Maradi”, “Electro Cabello”, “Electrodoodle”, “Loopster”, “Poppers and Prosecco”, “Wepa”, “Glitter Blast”, “Maccary Bay”, and “Feelin Good” by [Kevin MacLeod](https://incompetech.com/). Licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/). The player links to a `credits.html` page with each track's source, and the Now playing panel links to the current track.
 
-This is an educational player inspired by music streaming interfaces. Its single built-in audio player plays the Creative Commons tracks or files you add from your device. The four artist cards are links, so they cannot start a second in-app audio stream.
+IniSound is an independent educational project and is not affiliated with or endorsed by Spotify. Its single built-in audio player plays the Creative Commons tracks or files you add from your device. The four artist cards are external links, so they cannot start a second in-app audio stream.
